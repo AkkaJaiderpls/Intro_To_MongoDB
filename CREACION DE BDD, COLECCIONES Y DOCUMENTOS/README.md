@@ -58,3 +58,21 @@ Primero le indicamos la condicion y luego el valor a actualizar.
     db.nameCollection.deleteOne({
         "_id" : ObjectId("45c48897e456")
     })
+
+## INSERTAR VARIOS DOCUMENTOS A LA VEZ EN UNA COLECCION ##
+
+    db.insertMany([{
+        "nombre" : "Juan",
+        "apellido" : "Perez",
+        "edad" : 25
+    },
+    {
+        "nombre" : "Juan",
+        "apellido" : "Perez",
+        "edad" : 25
+    },
+    {
+        "nombre" : "Juan",
+        "apellido" : "Perez",
+        "edad" : 25
+    }])
