@@ -1,4 +1,4 @@
-# CREACION DE BASE DE DATOS, DOCUMENTOS Y COLECCIONES #
+# GESTION DE BASE DE DATOS, DOCUMENTOS Y COLECCIONES #
 
 ## USAR BASE DE DATOS O CREARLA SI NO EXISTE ##
 
@@ -76,5 +76,3 @@ Primero le indicamos la condicion y luego el valor a actualizar.
         "apellido" : "Perez",
         "edad" : 25
     }])
-
-## 
