@@ -10,7 +10,7 @@
 
 ## CREAR COLECCION ##
 
-    db.createCollection(nameCollection)
+    db.createCollection('nameCollection')
 
 ## MOSTRAR COLECCIONES ##
 
@@ -18,7 +18,7 @@
 
 ## ELIMINAR COLECCION ##
 
-    db.nameCollection.crop()
+    db.nameCollection.drop()
 
 ## ELIMINAR BASE DE DATOS EN USO ##
 
@@ -76,3 +76,5 @@ Primero le indicamos la condicion y luego el valor a actualizar.
         "apellido" : "Perez",
         "edad" : 25
     }])
+
+## 
